@@ -30,6 +30,7 @@ function App() {
           </Route>
           <Route exact path="/feedback">
                <FEEDBACK/>
+               
             </Route>
         </Switch>
     </Router>
