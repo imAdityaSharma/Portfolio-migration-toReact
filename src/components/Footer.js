@@ -18,7 +18,7 @@ export default function Footer(params) {
                <Link className="nav-link" to="Feedback">feedback</Link>
                <li className="nav-item">made with love</li><li className="xx">❤</li>
                <li className="nav-item">using <a className="vc" href="https://reactjs.org/" rel="noreferrer"target="_blank"> React</a></li>
-               <Link className="vcc" to="https://www.vectorstock.com/royalty-free-vector/Linkbstract-background-for-use-in-design-vector-30182387" rel="noreferrer" target="_blank">Vector image by VectorStock / Robot</Link>
+               <a className="vcc" href="https://www.vectorstock.com/royalty-free-vector/Linkbstract-background-for-use-in-design-vector-30182387" rel="noreferrer" target="_blank">Vector image by VectorStock / Robot</a>
            </div>
        </nav>
      </div>  

@@ -1,23 +1,21 @@
 import React from "react";
-
+import { Button,Form } from "react-bootstrap";
 export default function FEEDBACK(params) {
      return (
 <>
-    <div className="form-cc" >
-        <h1>form</h1>
-        <h1 className="text-center"> feedback</h1>
-        <form method="POST" >
-            <div className="form-group">
-                <label htmlFor="email" className="form-label">Email address</label>
-                <input type="email" className="form-control" id="email" name="email" placeholder="   "/>
-            </div>
-            
-            <div className="form-group">
-                <label htmlFor="feedback" className="form-label">Enter your query</label>
-                <textarea className="form-control" id="feedback" name="feedback" rows="3"></textarea></div>
-            </form>
-            <button className="btn btn-primary" type="submit">submit</button>
-    </div>
+<div className="form-cc">
+<Form >
+  <Form.Group controlId="email">
+    <Form.Label>Email address</Form.Label>
+    <Form.Control type="email" placeholder="name@example.com" />
+  </Form.Group>
+  <Form.Group controlId="desc">
+    <Form.Label>Feedback</Form.Label>
+    <Form.Control as="textarea" rows={3} />
+  </Form.Group>
+  </Form>
+  <Button my-2 variant="dark">Submit</Button>
+  </div>
 </>
     )
     }

@@ -15,20 +15,16 @@ function App() {
     <Router>
      <Header/>
           <Switch>
-           <Route exact path="/home" ><Home/></Route>
-           <Route exact path="/" ><Home/></Route>
-            {/*//<Route exact path="/myprojects"><myprojects/></Route>}*/}
-            <Route exact path="/blogs">
-               <BLOGS/>
-          </Route>
-          {/*//<Route exact path="/resume"><resume/></Route>}*/}
-          <Route exact path="/Feedback">
-               <FEEDBACK/>
-               
-            </Route>
-        </Switch>
+              <Route exact path="/home" ><Home/></Route>
+              <Route exact path="/" ><Home/></Route>
+              {/*//<Route exact path="/myprojects"><myprojects/></Route>}*/}
+              <Route exact path="/blogs"><BLOGS/></Route>
+              {/*//<Route exact path="/resume"><resume/></Route>}*/}
+              <Route exact path="/Feedback"><FEEDBACK/></Route>
+          </Switch>
+      <Footer/>
     </Router>
-    <Footer/>
+    
     
     </>
   );

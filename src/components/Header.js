@@ -13,7 +13,7 @@ import {Link} from "react-router-dom";
                                 <span className="navbar-toggler-icon"></span>
                         </button>
                     <li className="nav-item">
-                        <Link className="nav-link " aria-current="page" to="/myprojects">My projects</Link>
+                        <Link className="nav-link " aria-current="page" to="myprojects">My projects</Link>
                     </li>
           
                     <li className="nav-item">
@@ -35,7 +35,7 @@ import {Link} from "react-router-dom";
                     </ul>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="resume">My Resume</Link>
+                    <Link className="nav-link" to="/resume">My Resume</Link>
                 </li>
             </ul>
         </div>
