@@ -1,14 +1,13 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BLOGS  from "./components/blogs";
-import FEEDBACK  from "./components/feedback";
+import FEEDBACK  from "./components/Feedback";
+import Home  from "./components/home";
 import './App.css';
-import {Router as RT} from "react-router";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 function App() {
   return (
@@ -16,19 +15,14 @@ function App() {
     <Router>
      <Header/>
           <Switch>
-            <Route exact path="/home">
-               <home />
-            </Route>
-            <Route exact path="/myprojects">
-              <myprojects/>
-            </Route>
+           <Route exact path="/home" ><Home/></Route>
+           <Route exact path="/" ><Home/></Route>
+            {/*//<Route exact path="/myprojects"><myprojects/></Route>}*/}
             <Route exact path="/blogs">
                <BLOGS/>
           </Route>
-          <Route exact path="/resume">
-            <resume/>
-          </Route>
-          <Route exact path="/feedback">
+          {/*//<Route exact path="/resume"><resume/></Route>}*/}
+          <Route exact path="/Feedback">
                <FEEDBACK/>
                
             </Route>

@@ -1,11 +1,6 @@
 import React from "react";
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import {Link} from "react-router-dom";
  export default function Header(params) {
      return (
      
@@ -26,7 +21,7 @@ import {
                     </li>
           
                     <li className="nav-item">
-                        <a className="nav-link" href="https://github.com/imAdityaSharma" target="_blank" rel="noreferrer noopener"><img className="im1" src="./github.svg" width="25" height="25"className="img-icon" alt="..."/>    My GitHub </a>
+                        <a className="nav-link" href="https://github.com/imAdityaSharma" target="_blank" rel="noreferrer noopener"><img className="img-thumbnail im1" src="./github.svg" width="25" height="25"className="img-icon" alt="..."/>    My GitHub </a>
                     </li>
                     <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle " to="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

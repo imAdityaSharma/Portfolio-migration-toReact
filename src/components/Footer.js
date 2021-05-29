@@ -15,15 +15,15 @@ export default function Footer(params) {
                <Link className="nav-link" to="#">Home</Link>
                <Link className="nav-link" to="#">xyz</Link>
                <Link className="nav-link" to="#">xyz</Link>
-               <Link className="nav-link" to="feedback">feedback</Link>
-               <li className="nav-item">made with love❤</li>
-               <li className="nav-item">using <Link className="vc" to="https://www.djangoproject.com/" target="_blank"> Django</Link></li>
-               <Link className="vcc" to="https://www.vectorstock.com/royalty-free-vector/Linkbstract-background-for-use-in-design-vector-30182387" target="_blank">Vector image by VectorStock / Robot</Link>
+               <Link className="nav-link" to="Feedback">feedback</Link>
+               <li className="nav-item">made with love</li><li className="xx">❤</li>
+               <li className="nav-item">using <a className="vc" href="https://reactjs.org/" rel="noreferrer"target="_blank"> React</a></li>
+               <Link className="vcc" to="https://www.vectorstock.com/royalty-free-vector/Linkbstract-background-for-use-in-design-vector-30182387" rel="noreferrer" target="_blank">Vector image by VectorStock / Robot</Link>
            </div>
        </nav>
      </div>  
      <Switch>
-     <Route exact path="/feedback">
+     <Route exact path="/Feedback">
        <feedback />
      </Route>
      <Route exact path="/xyz">
